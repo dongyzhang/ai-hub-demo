@@ -1,0 +1,20 @@
+{
+  "title": "Deck Theme Builder",
+  "slug": "deck-theme-builder",
+  "description": "Applies a consistent slide theme across a PowerPoint deck.",
+  "type": "skill",
+  "category": "Design",
+  "tags": [
+    "design",
+    "powerpoint",
+    "branding"
+  ],
+  "tools": [
+    "PowerPoint",
+    "Python"
+  ],
+  "author": "Nina Park",
+  "team": "Creative Studio",
+  "created": "2026-07-23",
+  "confidentiality_attestation": true
+}

@@ -1,6 +1,6 @@
 # Deloitte AI Hub
 
-**Live demo:** https://dongyzhang.github.io/ai-hub-demo/ · publish updates with `python scripts/publish_site.py`
+**Live demo:** https://dongyzhang.github.io/ai-hub-demo/ · every push to `main` auto-rebuilds & deploys via GitHub Actions (`python scripts/publish_site.py` is a one-command shortcut).
 
 
 A central place where Deloitte professionals **share the reusable things they build with
