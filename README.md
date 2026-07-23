@@ -1,5 +1,8 @@
 # Deloitte AI Hub
 
+**Live demo:** https://dongyzhang.github.io/ai-hub-demo/ · publish updates with `python scripts/publish_site.py`
+
+
 A central place where Deloitte professionals **share the reusable things they build with
 Claude Code** — skills, agents, slash commands, hooks, `CLAUDE.md` configs, prompts,
 utilities, small apps, and training content — so the whole firm can discover, reuse, and
