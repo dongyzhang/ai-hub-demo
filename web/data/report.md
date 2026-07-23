@@ -1,6 +1,6 @@
 # AI Hub — Super Brain Report
 
-_Generated 2026-07-23 15:43 UTC · source: offline fallback · 6 asset(s)_
+_Generated 2026-07-23 16:14 UTC · source: offline fallback · 6 asset(s)_
 
 ## Executive summary
 The Hub currently holds **6 shared asset(s)** across **6 categories** and **6 team(s)**. The most active category is **Audit** and the most common asset type is **skill**. This is a deterministic offline summary — set `ANTHROPIC_API_KEY` to generate the richer Claude-authored narrative.
