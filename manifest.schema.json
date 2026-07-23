@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://deloitte.example/ai-hub/manifest.schema.json",
+  "title": "Deloitte AI Hub Asset Manifest",
+  "description": "Contract for a single shared Claude Code asset. Drives categorization, search, and analytics.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "title",
+    "slug",
+    "description",
+    "type",
+    "category",
+    "author",
+    "team",
+    "created",
+    "confidentiality_attestation"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Human-readable name."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "URL-safe identifier, kebab-case."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "description": "One or two sentences: what it does and who it helps."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "skill",
+        "agent",
+        "slash-command",
+        "hook",
+        "claude-md",
+        "prompt",
+        "app",
+        "training",
+        "utility"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Finance",
+        "Audit",
+        "Tax",
+        "Data",
+        "Engineering",
+        "Design",
+        "Productivity",
+        "Risk",
+        "Other"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Free-form keywords for search."
+    },
+    "tools": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Tech/tools involved, e.g. Python, Next.js, Claude API, Excel."
+    },
+    "author": {
+      "type": "string",
+      "description": "Contributor display name."
+    },
+    "team": {
+      "type": "string",
+      "description": "Team or practice, used for grouping and analytics."
+    },
+    "created": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date (YYYY-MM-DD)."
+    },
+    "confidentiality_attestation": {
+      "type": "boolean",
+      "const": true,
+      "description": "MUST be true: contributor confirms no client-confidential material."
+    },
+    "demo_url": {
+      "type": "string",
+      "description": "Optional link to a live demo."
+    },
+    "screenshot": {
+      "type": "string",
+      "description": "Optional path/URL to a screenshot (for products)."
+    }
+  }
+}

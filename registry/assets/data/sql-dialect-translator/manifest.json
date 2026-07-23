@@ -1,0 +1,13 @@
+{
+  "title": "SQL Dialect Translator",
+  "slug": "sql-dialect-translator",
+  "description": "A slash command that rewrites a SQL query from one warehouse dialect to another (e.g. BigQuery to Snowflake) and explains the changes.",
+  "type": "slash-command",
+  "category": "Data",
+  "tags": ["sql", "warehouse", "migration"],
+  "tools": ["SQL", "Claude Code"],
+  "author": "Wei Zhang",
+  "team": "Data & AI",
+  "created": "2026-06-25",
+  "confidentiality_attestation": true
+}

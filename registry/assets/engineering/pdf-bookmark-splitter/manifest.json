@@ -1,0 +1,13 @@
+{
+  "title": "PDF Bookmark Splitter",
+  "slug": "pdf-bookmark-splitter",
+  "description": "A Claude Code skill that splits large PDFs into separate files based on their bookmark/outline structure.",
+  "type": "skill",
+  "category": "Engineering",
+  "tags": ["pdf", "automation", "documents"],
+  "tools": ["Python", "Claude Code"],
+  "author": "Priya Nair",
+  "team": "Engineering",
+  "created": "2026-05-12",
+  "confidentiality_attestation": true
+}

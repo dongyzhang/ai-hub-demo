@@ -1,0 +1,13 @@
+{
+  "title": "SOX Sample Selector",
+  "slug": "sox-sample-selector",
+  "description": "A subagent that takes a control population and produces a documented, reproducible SOX 404 test sample with methodology notes.",
+  "type": "agent",
+  "category": "Audit",
+  "tags": ["sox", "sampling", "controls", "workpaper"],
+  "tools": ["Python", "Claude Code"],
+  "author": "Dana Osei",
+  "team": "Audit & Assurance",
+  "created": "2026-06-18",
+  "confidentiality_attestation": true
+}

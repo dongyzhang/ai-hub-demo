@@ -1,0 +1,20 @@
+{
+  "team": "Finance Transformation",
+  "owner": "Sofia Alvarez",
+  "projects": [
+    {
+      "name": "Close automation experiments",
+      "category": "Finance",
+      "status": "active",
+      "tags": ["close", "automation"],
+      "summary": "Using Claude Code to speed up month-end close prep."
+    },
+    {
+      "name": "Variance commentary helper",
+      "category": "Finance",
+      "status": "shared",
+      "tags": ["variance", "reporting"],
+      "summary": "Drafts first-pass variance narratives. Promoted to the Hub."
+    }
+  ]
+}

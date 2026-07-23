@@ -1,0 +1,14 @@
+{
+  "title": "Month-End Close Tracker",
+  "slug": "month-end-close-tracker",
+  "description": "A lightweight single-page web app for tracking month-end close tasks, owners, dependencies, and day-by-day status.",
+  "type": "app",
+  "category": "Finance",
+  "tags": ["close", "workflow", "tracker", "dashboard"],
+  "tools": ["HTML", "JavaScript", "Claude Code"],
+  "author": "Sofia Alvarez",
+  "team": "Finance Transformation",
+  "created": "2026-07-01",
+  "confidentiality_attestation": true,
+  "demo_url": "https://example.internal/close-tracker"
+}

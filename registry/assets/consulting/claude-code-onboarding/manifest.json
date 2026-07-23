@@ -1,0 +1,13 @@
+{
+  "title": "Claude Code Onboarding for Consultants",
+  "slug": "claude-code-onboarding",
+  "description": "A step-by-step training guide that gets a non-engineer consultant productive in Claude Code in under an hour.",
+  "type": "training",
+  "category": "Productivity",
+  "tags": ["onboarding", "training", "enablement", "getting-started"],
+  "tools": ["Claude Code"],
+  "author": "Tom Becker",
+  "team": "Consulting Enablement",
+  "created": "2026-07-10",
+  "confidentiality_attestation": true
+}

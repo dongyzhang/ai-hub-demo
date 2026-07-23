@@ -1,0 +1,13 @@
+{
+  "title": "PDF Form Auto-Filler",
+  "slug": "pdf-form-autofiller",
+  "description": "A skill that fills repetitive PDF forms from a structured data file, and can also split multi-form PDF packets into individual documents.",
+  "type": "skill",
+  "category": "Tax",
+  "tags": ["pdf", "forms", "automation", "documents"],
+  "tools": ["Python", "Claude Code"],
+  "author": "Marcus Lee",
+  "team": "Tax",
+  "created": "2026-06-03",
+  "confidentiality_attestation": true
+}

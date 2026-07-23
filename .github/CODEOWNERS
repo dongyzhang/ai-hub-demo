@@ -1,0 +1,25 @@
+# CODEOWNERS — who must review a Pull Request before it can merge.
+#
+# When someone opens a PR, GitHub automatically requests a review from the owner(s)
+# of the files they touched. Combined with branch protection ("require review from
+# Code Owners"), this means an asset can't be merged into the Hub until the right
+# practice lead has approved it. This is the human half of the confidentiality gate.
+#
+# Replace the @deloitte-ai-hub/* team handles below with your real GitHub teams.
+
+# Fallback: the Hub maintainers review anything not matched more specifically.
+*                                   @deloitte-ai-hub/hub-maintainers
+
+# Route each practice's assets to that practice's reviewers.
+/registry/assets/finance/          @deloitte-ai-hub/finance-leads
+/registry/assets/audit/            @deloitte-ai-hub/audit-leads
+/registry/assets/tax/              @deloitte-ai-hub/tax-leads
+/registry/assets/data/             @deloitte-ai-hub/data-leads
+/registry/assets/engineering/      @deloitte-ai-hub/engineering-leads
+/registry/assets/consulting/       @deloitte-ai-hub/consulting-leads
+
+# The plumbing (scripts, workflows, schema) is maintainer-only.
+/scripts/                           @deloitte-ai-hub/hub-maintainers
+/.github/                           @deloitte-ai-hub/hub-maintainers
+/manifest.schema.json               @deloitte-ai-hub/hub-maintainers
+/hub-cli/                           @deloitte-ai-hub/hub-maintainers

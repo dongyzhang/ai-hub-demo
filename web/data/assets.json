@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-07-23 15:43 UTC",
+  "assets": [
+    {
+      "title": "Claude Code Onboarding for Consultants",
+      "slug": "claude-code-onboarding",
+      "description": "A step-by-step training guide that gets a non-engineer consultant productive in Claude Code in under an hour.",
+      "type": "training",
+      "category": "Productivity",
+      "tags": [
+        "onboarding",
+        "training",
+        "enablement",
+        "getting-started"
+      ],
+      "tools": [
+        "Claude Code"
+      ],
+      "author": "Tom Becker",
+      "team": "Consulting Enablement",
+      "created": "2026-07-10",
+      "path": "registry/assets/consulting/claude-code-onboarding",
+      "readme": "# Claude Code Onboarding for Consultants\n\nA **training** guide that takes a non-engineer from zero to productive in Claude Code in\nunder an hour.\n\n## Who it's for\nConsultants, analysts, and PMs who are not software engineers but want to use Claude Code\nfor documents, data, and small tools.\n\n## Contents\n1. What Claude Code is (and isn't).\n2. Installing and opening your first project.\n3. The five things you'll do every day.\n4. Working safely with client confidentiality in mind.\n5. Where to find and share reusable assets (this Hub!).\n\n## Format\nSelf-paced markdown with checkpoints. ~45 minutes.\n"
+    },
+    {
+      "title": "Month-End Close Tracker",
+      "slug": "month-end-close-tracker",
+      "description": "A lightweight single-page web app for tracking month-end close tasks, owners, dependencies, and day-by-day status.",
+      "type": "app",
+      "category": "Finance",
+      "tags": [
+        "close",
+        "workflow",
+        "tracker",
+        "dashboard"
+      ],
+      "tools": [
+        "HTML",
+        "JavaScript",
+        "Claude Code"
+      ],
+      "author": "Sofia Alvarez",
+      "team": "Finance Transformation",
+      "created": "2026-07-01",
+      "demo_url": "https://example.internal/close-tracker",
+      "path": "registry/assets/finance/month-end-close-tracker",
+      "readme": "# Month-End Close Tracker\n\nA small, self-contained **web app** (single HTML file) for running a month-end close.\n\n## What it solves\nClose is a sequence of dependent tasks across owners and days. This app gives a shared\nboard: tasks, owners, dependencies, and per-day status \u2014 no spreadsheet wrangling.\n\n## Features\n- Day-by-day close calendar view.\n- Task owners and blockers.\n- Progress roll-up.\n\n## Run it\nOpen `index.html` in a browser. Built with Claude Code; contains sample tasks only.\n"
+    },
+    {
+      "title": "SQL Dialect Translator",
+      "slug": "sql-dialect-translator",
+      "description": "A slash command that rewrites a SQL query from one warehouse dialect to another (e.g. BigQuery to Snowflake) and explains the changes.",
+      "type": "slash-command",
+      "category": "Data",
+      "tags": [
+        "sql",
+        "warehouse",
+        "migration"
+      ],
+      "tools": [
+        "SQL",
+        "Claude Code"
+      ],
+      "author": "Wei Zhang",
+      "team": "Data & AI",
+      "created": "2026-06-25",
+      "path": "registry/assets/data/sql-dialect-translator",
+      "readme": "# SQL Dialect Translator\n\nA Claude Code **slash command** (`/sqltranslate`) that converts SQL between warehouse\ndialects and explains what changed and why.\n\n## What it solves\nMigrating queries between BigQuery, Snowflake, Databricks, and Postgres means fixing\nfunctions, quoting, and type casts by hand. This command does the rewrite and annotates\nthe differences.\n\n## Usage\n> `/sqltranslate from=bigquery to=snowflake` then paste your query.\n\n## Supported\nBigQuery \u00b7 Snowflake \u00b7 Databricks \u00b7 PostgreSQL. Uses only the query text you provide.\n"
+    },
+    {
+      "title": "SOX Sample Selector",
+      "slug": "sox-sample-selector",
+      "description": "A subagent that takes a control population and produces a documented, reproducible SOX 404 test sample with methodology notes.",
+      "type": "agent",
+      "category": "Audit",
+      "tags": [
+        "sox",
+        "sampling",
+        "controls",
+        "workpaper"
+      ],
+      "tools": [
+        "Python",
+        "Claude Code"
+      ],
+      "author": "Dana Osei",
+      "team": "Audit & Assurance",
+      "created": "2026-06-18",
+      "path": "registry/assets/audit/sox-sample-selector",
+      "readme": "# SOX Sample Selector\n\nA Claude Code **subagent** that turns a control population into a defensible SOX 404 test\nsample.\n\n## What it solves\nSample selection needs to be consistent, reproducible, and documented for review. This\nagent applies a stated sampling method (attribute/random/interval), records the seed and\nrationale, and outputs a workpaper-ready selection.\n\n## Output\n- The selected sample rows.\n- A methodology note (population size, method, confidence, seed).\n- A reviewer summary.\n\n## Confidentiality\nShips with **synthetic** sample data only. Point it at your own (non-client) population to try it.\n"
+    },
+    {
+      "title": "PDF Form Auto-Filler",
+      "slug": "pdf-form-autofiller",
+      "description": "A skill that fills repetitive PDF forms from a structured data file, and can also split multi-form PDF packets into individual documents.",
+      "type": "skill",
+      "category": "Tax",
+      "tags": [
+        "pdf",
+        "forms",
+        "automation",
+        "documents"
+      ],
+      "tools": [
+        "Python",
+        "Claude Code"
+      ],
+      "author": "Marcus Lee",
+      "team": "Tax",
+      "created": "2026-06-03",
+      "path": "registry/assets/tax/pdf-form-autofiller",
+      "readme": "# PDF Form Auto-Filler\n\nA Claude Code **skill** for tax teams that fills repetitive PDF forms from a structured\ndata file (CSV/JSON), and can split a multi-form packet into individual PDFs.\n\n## What it solves\nPreparation work often means the same fields typed into dozens of near-identical PDF forms.\nThis skill maps a data row to form fields and produces one filled PDF per row.\n\n## Usage\n> \"Fill `form-template.pdf` for every row in `clients.csv`.\"\n\n## Overlap note\nThis overlaps with the Engineering team's **PDF Bookmark Splitter** on PDF splitting \u2014\na good candidate for the Hub's duplicate-effort detection to flag for consolidation.\n"
+    },
+    {
+      "title": "PDF Bookmark Splitter",
+      "slug": "pdf-bookmark-splitter",
+      "description": "A Claude Code skill that splits large PDFs into separate files based on their bookmark/outline structure.",
+      "type": "skill",
+      "category": "Engineering",
+      "tags": [
+        "pdf",
+        "automation",
+        "documents"
+      ],
+      "tools": [
+        "Python",
+        "Claude Code"
+      ],
+      "author": "Priya Nair",
+      "team": "Engineering",
+      "created": "2026-05-12",
+      "path": "registry/assets/engineering/pdf-bookmark-splitter",
+      "readme": "# PDF Bookmark Splitter\n\nA Claude Code **skill** that splits a large PDF into one file per top-level bookmark.\n\n## What it solves\nTeams routinely receive 200+ page PDFs (reports, filings, appendices) that need to be\nbroken into per-section files. This skill reads the PDF outline and emits one PDF per\nbookmark, named after the bookmark title.\n\n## Usage\nDrop the skill into `.claude/skills/`, then ask Claude Code:\n\n> \"Split `report.pdf` by its bookmarks.\"\n\n## How it works\n- Reads the PDF outline tree.\n- Maps each top-level bookmark to a page range.\n- Writes `NN - <Bookmark Title>.pdf` for each range.\n\n## Notes\nContains no client material \u2014 works on any PDF you point it at.\n"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "generated_at": "2026-07-23 15:43 UTC",
+  "total": 6,
+  "by_category": [
+    {
+      "name": "Productivity",
+      "count": 1
+    },
+    {
+      "name": "Finance",
+      "count": 1
+    },
+    {
+      "name": "Data",
+      "count": 1
+    },
+    {
+      "name": "Audit",
+      "count": 1
+    },
+    {
+      "name": "Tax",
+      "count": 1
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    }
+  ],
+  "by_type": [
+    {
+      "name": "skill",
+      "count": 2
+    },
+    {
+      "name": "training",
+      "count": 1
+    },
+    {
+      "name": "app",
+      "count": 1
+    },
+    {
+      "name": "slash-command",
+      "count": 1
+    },
+    {
+      "name": "agent",
+      "count": 1
+    }
+  ],
+  "by_team": [
+    {
+      "name": "Consulting Enablement",
+      "count": 1
+    },
+    {
+      "name": "Finance Transformation",
+      "count": 1
+    },
+    {
+      "name": "Data & AI",
+      "count": 1
+    },
+    {
+      "name": "Audit & Assurance",
+      "count": 1
+    },
+    {
+      "name": "Tax",
+      "count": 1
+    },
+    {
+      "name": "Engineering",
+      "count": 1
+    }
+  ],
+  "by_month": [
+    {
+      "name": "2026-05",
+      "count": 1
+    },
+    {
+      "name": "2026-06",
+      "count": 3
+    },
+    {
+      "name": "2026-07",
+      "count": 2
+    }
+  ],
+  "top_contributors": [
+    {
+      "name": "Tom Becker",
+      "count": 1
+    },
+    {
+      "name": "Sofia Alvarez",
+      "count": 1
+    },
+    {
+      "name": "Wei Zhang",
+      "count": 1
+    },
+    {
+      "name": "Dana Osei",
+      "count": 1
+    },
+    {
+      "name": "Marcus Lee",
+      "count": 1
+    },
+    {
+      "name": "Priya Nair",
+      "count": 1
+    }
+  ],
+  "top_tools": [
+    {
+      "name": "Claude Code",
+      "count": 6
+    },
+    {
+      "name": "Python",
+      "count": 3
+    },
+    {
+      "name": "HTML",
+      "count": 1
+    },
+    {
+      "name": "JavaScript",
+      "count": 1
+    },
+    {
+      "name": "SQL",
+      "count": 1
+    }
+  ],
+  "top_tags": [
+    {
+      "name": "pdf",
+      "count": 2
+    },
+    {
+      "name": "automation",
+      "count": 2
+    },
+    {
+      "name": "documents",
+      "count": 2
+    },
+    {
+      "name": "onboarding",
+      "count": 1
+    },
+    {
+      "name": "training",
+      "count": 1
+    },
+    {
+      "name": "enablement",
+      "count": 1
+    },
+    {
+      "name": "getting-started",
+      "count": 1
+    },
+    {
+      "name": "close",
+      "count": 1
+    },
+    {
+      "name": "workflow",
+      "count": 1
+    },
+    {
+      "name": "tracker",
+      "count": 1
+    },
+    {
+      "name": "dashboard",
+      "count": 1
+    },
+    {
+      "name": "sql",
+      "count": 1
+    },
+    {
+      "name": "warehouse",
+      "count": 1
+    },
+    {
+      "name": "migration",
+      "count": 1
+    },
+    {
+      "name": "sox",
+      "count": 1
+    }
+  ]
+}

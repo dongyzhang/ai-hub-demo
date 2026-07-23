@@ -1,0 +1,10 @@
+# Client-term blocklist for the AI Hub sanitization scan.
+# One term per line. Lines starting with '#' are comments.
+# Teams should populate this with real client names / engagement code-names so the
+# submission scan blocks accidental leaks. The examples below are FICTITIOUS.
+#
+# --- fictitious examples (safe to keep for the demo) ---
+Contoso
+Initech
+Globex Engagement
+Project Bluebird

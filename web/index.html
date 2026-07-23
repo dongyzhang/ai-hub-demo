@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deloitte AI Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">AI Hub</span>
+      <span class="brand-sub">Deloitte · Claude Code cluster</span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-view="browse">Browse</button>
+      <button class="tab" data-view="products">Products</button>
+      <button class="tab" data-view="training">Training</button>
+      <button class="tab" data-view="analytics">Analytics</button>
+    </nav>
+  </header>
+
+  <main class="container" id="main">
+    <!-- BROWSE -->
+    <section class="view" id="view-browse">
+      <div class="filters">
+        <input type="search" id="search" placeholder="Search assets, tags, tools…" />
+        <select id="filter-category"><option value="">All categories</option></select>
+        <select id="filter-type"><option value="">All types</option></select>
+        <select id="filter-team"><option value="">All teams</option></select>
+        <button id="clear-filters" class="ghost">Clear</button>
+      </div>
+      <p class="result-count" id="result-count"></p>
+      <div class="grid" id="asset-grid"></div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="view hidden" id="view-products">
+      <h2 class="view-title">Products &amp; apps built with Claude Code</h2>
+      <div class="grid" id="product-grid"></div>
+    </section>
+
+    <!-- TRAINING -->
+    <section class="view hidden" id="view-training">
+      <h2 class="view-title">Training &amp; enablement</h2>
+      <div class="list" id="training-list"></div>
+    </section>
+
+    <!-- ANALYTICS -->
+    <section class="view hidden" id="view-analytics">
+      <h2 class="view-title">Super brain — firm-wide analytics</h2>
+      <div class="stat-cards" id="stat-cards"></div>
+      <div class="charts">
+        <div class="chart-block"><h3>By category</h3><div id="chart-category"></div></div>
+        <div class="chart-block"><h3>By type</h3><div id="chart-type"></div></div>
+        <div class="chart-block"><h3>By team</h3><div id="chart-team"></div></div>
+        <div class="chart-block"><h3>Contributions by month</h3><div id="chart-month"></div></div>
+      </div>
+      <div class="two-col">
+        <div class="panel"><h3>Top contributors</h3><div id="contributors"></div></div>
+        <div class="panel"><h3>Top tools</h3><div id="tools"></div></div>
+      </div>
+      <div class="panel report">
+        <h3>Narrative report</h3>
+        <div id="report" class="markdown"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- DETAIL OVERLAY -->
+  <div class="overlay hidden" id="overlay">
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <span id="footer-meta"></span>
+    <span>Reusable assets only — never client-confidential material.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
