@@ -1,0 +1,20 @@
+{
+  "title": "Risk Control Heatmap",
+  "slug": "risk-control-heatmap",
+  "description": "Turns a risk register into a likelihood x impact heatmap for reviews.",
+  "type": "app",
+  "category": "Risk",
+  "tags": [
+    "risk",
+    "heatmap",
+    "dashboard"
+  ],
+  "tools": [
+    "HTML",
+    "JavaScript"
+  ],
+  "author": "Alex Kim",
+  "team": "Risk Advisory",
+  "created": "2026-07-23",
+  "confidentiality_attestation": true
+}

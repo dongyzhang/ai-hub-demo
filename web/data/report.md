@@ -1,9 +1,9 @@
 # AI Hub — Super Brain Report
 
-_Generated 2026-07-23 16:14 UTC · source: offline fallback · 6 asset(s)_
+_Generated 2026-07-23 16:20 UTC · source: offline fallback · 7 asset(s)_
 
 ## Executive summary
-The Hub currently holds **6 shared asset(s)** across **6 categories** and **6 team(s)**. The most active category is **Audit** and the most common asset type is **skill**. This is a deterministic offline summary — set `ANTHROPIC_API_KEY` to generate the richer Claude-authored narrative.
+The Hub currently holds **7 shared asset(s)** across **7 categories** and **7 team(s)**. The most active category is **Audit** and the most common asset type is **skill**. This is a deterministic offline summary — set `ANTHROPIC_API_KEY` to generate the richer Claude-authored narrative.
 
 ## Themes
 - **Audit** (1): “SOX Sample Selector”
@@ -11,13 +11,15 @@ The Hub currently holds **6 shared asset(s)** across **6 categories** and **6 te
 - **Data** (1): “SQL Dialect Translator”
 - **Engineering** (1): “PDF Bookmark Splitter”
 - **Finance** (1): “Month-End Close Tracker”
+- **Risk** (1): “Risk Control Heatmap”
 - **Tax** (1): “PDF Form Auto-Filler”
 
 ## Duplicate / overlapping effort
 - Shared theme **`pdf`** appears in PDF Bookmark Splitter, PDF Form Auto-Filler across teams Engineering, Tax — **review for consolidation** into one canonical asset.
+- Shared theme **`dashboard`** appears in Month-End Close Tracker, Risk Control Heatmap across teams Finance Transformation, Risk Advisory — **review for consolidation** into one canonical asset.
 
 ## Coverage gaps
-- Categories with **no** contributions yet: **Design**, **Other**, **Risk**. Consider commissioning assets here.
+- Categories with **no** contributions yet: **Design**, **Other**. Consider commissioning assets here.
 
 ## Recommendations
 1. Consolidate the overlapping assets above to avoid duplicated maintenance.

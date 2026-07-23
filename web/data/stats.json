@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-07-23 16:14 UTC",
-  "total": 6,
+  "generated_at": "2026-07-23 16:20 UTC",
+  "total": 7,
   "by_category": [
+    {
+      "name": "Risk",
+      "count": 1
+    },
     {
       "name": "Productivity",
       "count": 1
@@ -29,15 +33,15 @@
   ],
   "by_type": [
     {
+      "name": "app",
+      "count": 2
+    },
+    {
       "name": "skill",
       "count": 2
     },
     {
       "name": "training",
-      "count": 1
-    },
-    {
-      "name": "app",
       "count": 1
     },
     {
@@ -50,6 +54,10 @@
     }
   ],
   "by_team": [
+    {
+      "name": "Risk Advisory",
+      "count": 1
+    },
     {
       "name": "Consulting Enablement",
       "count": 1
@@ -86,10 +94,14 @@
     },
     {
       "name": "2026-07",
-      "count": 2
+      "count": 3
     }
   ],
   "top_contributors": [
+    {
+      "name": "Alex Kim",
+      "count": 1
+    },
     {
       "name": "Tom Becker",
       "count": 1
@@ -126,11 +138,11 @@
     },
     {
       "name": "HTML",
-      "count": 1
+      "count": 2
     },
     {
       "name": "JavaScript",
-      "count": 1
+      "count": 2
     },
     {
       "name": "SQL",
@@ -138,6 +150,10 @@
     }
   ],
   "top_tags": [
+    {
+      "name": "dashboard",
+      "count": 2
+    },
     {
       "name": "pdf",
       "count": 2
@@ -149,6 +165,14 @@
     {
       "name": "documents",
       "count": 2
+    },
+    {
+      "name": "risk",
+      "count": 1
+    },
+    {
+      "name": "heatmap",
+      "count": 1
     },
     {
       "name": "onboarding",
@@ -179,23 +203,11 @@
       "count": 1
     },
     {
-      "name": "dashboard",
-      "count": 1
-    },
-    {
       "name": "sql",
       "count": 1
     },
     {
       "name": "warehouse",
-      "count": 1
-    },
-    {
-      "name": "migration",
-      "count": 1
-    },
-    {
-      "name": "sox",
       "count": 1
     }
   ]
