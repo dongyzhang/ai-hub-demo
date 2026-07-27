@@ -1,13 +1,14 @@
 # AI Hub — Super Brain Report
 
-_Generated 2026-07-23 16:20 UTC · source: offline fallback · 7 asset(s)_
+_Generated 2026-07-27 09:53 UTC · source: offline fallback · 8 asset(s)_
 
 ## Executive summary
-The Hub currently holds **7 shared asset(s)** across **7 categories** and **7 team(s)**. The most active category is **Audit** and the most common asset type is **skill**. This is a deterministic offline summary — set `ANTHROPIC_API_KEY` to generate the richer Claude-authored narrative.
+The Hub currently holds **8 shared asset(s)** across **8 categories** and **8 team(s)**. The most active category is **Audit** and the most common asset type is **skill**. This is a deterministic offline summary — set `ANTHROPIC_API_KEY` to generate the richer Claude-authored narrative.
 
 ## Themes
 - **Audit** (1): “SOX Sample Selector”
 - **Productivity** (1): “Claude Code Onboarding for Consultants”
+- **Design** (1): “Deck Theme Builder”
 - **Data** (1): “SQL Dialect Translator”
 - **Engineering** (1): “PDF Bookmark Splitter”
 - **Finance** (1): “Month-End Close Tracker”
@@ -19,7 +20,7 @@ The Hub currently holds **7 shared asset(s)** across **7 categories** and **7 te
 - Shared theme **`dashboard`** appears in Month-End Close Tracker, Risk Control Heatmap across teams Finance Transformation, Risk Advisory — **review for consolidation** into one canonical asset.
 
 ## Coverage gaps
-- Categories with **no** contributions yet: **Design**, **Other**. Consider commissioning assets here.
+- Categories with **no** contributions yet: **Other**. Consider commissioning assets here.
 
 ## Recommendations
 1. Consolidate the overlapping assets above to avoid duplicated maintenance.

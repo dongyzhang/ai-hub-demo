@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-07-23 16:20 UTC",
+  "generated_at": "2026-07-27 09:53 UTC",
   "assets": [
+    {
+      "title": "Deck Theme Builder",
+      "slug": "deck-theme-builder",
+      "description": "Applies a consistent slide theme across a PowerPoint deck.",
+      "type": "skill",
+      "category": "Design",
+      "tags": [
+        "design",
+        "powerpoint",
+        "branding"
+      ],
+      "tools": [
+        "PowerPoint",
+        "Python"
+      ],
+      "author": "Nina Park",
+      "team": "Creative Studio",
+      "created": "2026-07-23",
+      "path": "registry/assets/creative-studio/deck-theme-builder",
+      "readme": "# Deck Theme Builder\n\nA skill that applies a consistent slide theme (colors, fonts, spacing) across a PowerPoint deck. Generic template only.\n"
+    },
     {
       "title": "Risk Control Heatmap",
       "slug": "risk-control-heatmap",

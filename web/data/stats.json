@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-07-23 16:20 UTC",
-  "total": 7,
+  "generated_at": "2026-07-27 09:53 UTC",
+  "total": 8,
   "by_category": [
+    {
+      "name": "Design",
+      "count": 1
+    },
     {
       "name": "Risk",
       "count": 1
@@ -33,11 +37,11 @@
   ],
   "by_type": [
     {
-      "name": "app",
-      "count": 2
+      "name": "skill",
+      "count": 3
     },
     {
-      "name": "skill",
+      "name": "app",
       "count": 2
     },
     {
@@ -54,6 +58,10 @@
     }
   ],
   "by_team": [
+    {
+      "name": "Creative Studio",
+      "count": 1
+    },
     {
       "name": "Risk Advisory",
       "count": 1
@@ -94,10 +102,14 @@
     },
     {
       "name": "2026-07",
-      "count": 3
+      "count": 4
     }
   ],
   "top_contributors": [
+    {
+      "name": "Nina Park",
+      "count": 1
+    },
     {
       "name": "Alex Kim",
       "count": 1
@@ -134,7 +146,7 @@
     },
     {
       "name": "Python",
-      "count": 3
+      "count": 4
     },
     {
       "name": "HTML",
@@ -143,6 +155,10 @@
     {
       "name": "JavaScript",
       "count": 2
+    },
+    {
+      "name": "PowerPoint",
+      "count": 1
     },
     {
       "name": "SQL",
@@ -165,6 +181,18 @@
     {
       "name": "documents",
       "count": 2
+    },
+    {
+      "name": "design",
+      "count": 1
+    },
+    {
+      "name": "powerpoint",
+      "count": 1
+    },
+    {
+      "name": "branding",
+      "count": 1
     },
     {
       "name": "risk",
@@ -196,18 +224,6 @@
     },
     {
       "name": "workflow",
-      "count": 1
-    },
-    {
-      "name": "tracker",
-      "count": 1
-    },
-    {
-      "name": "sql",
-      "count": 1
-    },
-    {
-      "name": "warehouse",
       "count": 1
     }
   ]
